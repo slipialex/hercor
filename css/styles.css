@@ -19,7 +19,7 @@
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
       color: var(--text);
-      background: linear-gradient(180deg, #000000 0%, #FFFFFF 140px);
+      background: linear-gradient(180deg, #FDCB46 0%, #000000 140px);
       line-height: 1.6;
     }
 
