@@ -16,9 +16,24 @@
       scroll-behavior: smooth;
     }
 
+    @font-face {
+      font-family: HercorFont;
+      src: url(../fonts/RACERZ-VGYG0.OTF) format("truetype");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: HercorFontText;
+      src: url(../fonts/Arial_Black.ttf) format("truetype");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Arial, Helvetica, sans-serif, HercorFont, HercorFontText,Arial Black;
       color: var(--text);
       background: linear-gradient(180deg, #FDCB46 0%, #000000 140px);
       line-height: 1.6;
@@ -154,18 +169,23 @@
       letter-spacing: 0.04em;
       text-transform: uppercase;
     }
-
     h1, h2, h3 {
       margin: 0 0 14px;
       line-height: 1.15;
     }
-
+    
     h1 {
       font-size: clamp(2.7rem, 6vw, 5rem);
       color: var(--primary-dark);
       letter-spacing: -0.04em;
     }
-
+    .heading-font-Hercor {
+      font-family: 'HercorFont', sans-serif;
+    }
+    .text-font-Hercor {
+      font-family: 'HercorFontText', sans-serif;
+    }
+    
     .lead {
       font-size: 1.08rem;
       color: var(--blanco);
